@@ -1,0 +1,79 @@
+body{
+	/*background-color:lightblue;*/
+	background-image:url(../Images/BGImage.jpg);
+	background-position: center top;
+    background-size: 100% auto;
+}
+h1{
+	color: red;
+}
+.SelectBloodLabel{
+	color:yellow;
+	font-size:20px;
+	position: fixed;
+	//right:00px;
+	left:265px;
+	top:78px;
+	//bottom:-30px;
+	//width: 300px;
+	//height: 100px;
+	padding: 10px;
+}
+.BloodGroup{
+	color:red;
+	background-color:black;
+	font-size:16 px;
+	position: fixed;
+	//right:0px;
+	left:400px;
+	top:90px;
+	//bottom:-30px;
+	width: 200px;
+	//height: 0px;
+	padding: 0px;
+}
+.SelectStateLabel{
+	color:yellow;
+	font-size:20px;
+	position: fixed;
+	left:265px;
+	top:120px;
+	padding: 10px;
+}
+.SelectState{
+	color:red;
+	background-color:black;
+	font-size:16 px;
+	position: fixed;
+	left:400px;
+	top:130px;
+	width: 200px;
+}
+.SelectDistrictLabel{
+	color:yellow;
+	font-size:20px;
+	position: fixed;
+	left:279px;
+	top:162px;
+	padding: 10px;
+}
+.SelectDistrict{
+	color:red;
+	background-color:black;
+	font-size:16 px;
+	position: fixed;
+	left:440px;
+	top:175px;
+	width: 200px;
+}
+.SearchButton{
+	color:Yellow;
+	font-size: 20px;
+	background-color:Green;
+	font-size:16 px;
+	position: fixed;
+	left:510px;
+	top:210px;
+	width: 130px;
+	height: 30px;
+}
